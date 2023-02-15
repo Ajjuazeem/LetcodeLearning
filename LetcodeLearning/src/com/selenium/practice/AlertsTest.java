@@ -33,7 +33,7 @@ public class AlertsTest {
 		promtalert.click();
 		String alertname2 = alert.getText();
 		System.out.println(alertname2);
-		alert.sendKeys("Azeem");
+		alert.sendKeys("");
 		alert.accept();
 		
 		
